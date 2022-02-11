@@ -62,9 +62,20 @@ body {
 
 /* Portfolio Styling Begins */
 
+.my-work {
+    background-color: rgb(42, 4, 78);
+}
+
 .my-work h2 {
     font-size: 50px;
     display: inline;
+    color: white;
+}
+
+.work-img, .loading-gif, .mod-img {
+    position: absolute;
+    right: 50%;
+    display: contents;
 }
 
 .work-img iframe {
@@ -80,4 +91,19 @@ body {
 .loading-gif img {
     width: 300px;
     height: 300px;
+}
+/* Portfolio styling ends */
+
+/* Contact info starts */
+
+.contact h2 {
+    font-size: 50px;
+    display: block;
+}
+
+.contact-info {
+    display: inline;
+    font-weight: bold;
+    justify-content: space-evenly;
+    font-size: 20px;
 }
