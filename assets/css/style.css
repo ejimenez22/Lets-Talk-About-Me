@@ -1,0 +1,60 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* Start Header Styling */
+.the-start {
+    background-image: url(../images/Galaxy-Background.jpg);
+    background-size: cover;
+    background-position: 100%;
+    background-attachment: fixed;
+    position: sticky;
+    display: flex;
+}
+
+.the-start h1 {
+    color: white;
+    font-weight: bolder;
+    font-size: 80px;
+    position: center;
+
+}
+
+.the-start nav {
+    color: white;
+    margin: auto;
+
+}
+
+.the-start ul li{
+    display: inline;
+    padding: 15px;
+}
+
+.the-start nav ul li a{
+    color: white;
+    align-items: center;
+    font-size: 30px;
+    margin: auto;
+    display: inline;
+}
+
+/* End Header Styling */
+
+/* About Me Styling Begins */
+
+.about h2 {
+    font-size: 50px;
+    display: block;
+}
+
+.about p {
+    font-size: 20px;
+    display: inline;
+}
+
+.profile-pic img {
+    width: 15%;
+    display: block;
+    flex-wrap: wrap;
+}
