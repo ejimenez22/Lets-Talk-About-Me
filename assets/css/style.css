@@ -75,19 +75,26 @@ body {
 /* Portfolio Styling Begins */
 
 .my-work {
-    background-color: rgb(42, 4, 78);
+    background: url(../images/Galaxy-Background.jpg);
+    background-size: cover;
+    background-position: 100%;
+    background-attachment: fixed;
+    position: sticky;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+
 }
 
 .my-work h2 {
-    font-size: 50px;
+    font-size: 60px;
     display: inline;
     color: white;
 }
 
 .work-img, .loading-gif, .mod-img {
-    position: static;
-    right: 50%;
-    display: contents;
+ display: flex;
+ flex-direction: row;
 }
 
 .work-img iframe {
