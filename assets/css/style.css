@@ -1,5 +1,5 @@
 body {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: 'Courier New', Courier, monospace;
 }
 
 /* Start Header Styling */
@@ -42,22 +42,34 @@ body {
 /* End Header Styling */
 
 /* About Me Styling Begins */
-
-.about h2 {
-    font-size: 50px;
-    display: block;
+.flex-container {
+    width: 100%;
+    margin: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 0;
 }
 
-.about p {
-    font-size: 20px;
+.flex-container h2 {
+    font-size: 60px;
     display: inline;
 }
 
-.profile-pic img {
-    width: 15%;
-    display: block;
-    flex-wrap: wrap;
+.flex-container p {
+    font-size: 50px;
+    display: flex;
+    margin-right: 30px;
+    margin-left: 30px;
+    flex: auto;
 }
+
+.flex-container img {
+    width: 100%;
+    height: 100%;
+}
+
+
 /* About Me Styling Ends */
 
 /* Portfolio Styling Begins */
@@ -73,7 +85,7 @@ body {
 }
 
 .work-img, .loading-gif, .mod-img {
-    position: absolute;
+    position: static;
     right: 50%;
     display: contents;
 }
