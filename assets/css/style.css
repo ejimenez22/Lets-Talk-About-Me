@@ -129,12 +129,13 @@ body {
 /* Contact info starts */
 
 .contact h2 {
-    font-size: 50px;
-    display: block;
+    font-size: 60px;
+    display: inline;
 }
 
-.contact-info {
-    display: inline;
-    font-weight: bold;
-    font-size: 20px;
+.contact-info img {
+    display: flex;
+    flex-direction: row;
+    width: 100px;
+    height: 100px;
 }
