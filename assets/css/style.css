@@ -101,6 +101,7 @@ body {
  display: flex;
  flex-direction: column;
  flex-wrap: wrap;
+ overflow: hidden;
 }
 
 .work-img img {
@@ -133,9 +134,49 @@ body {
     display: inline;
 }
 
-.contact-info img {
+.contact-info {
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
+    padding: 40px 40px;
+    margin: auto;
+}
+
+.contact-info img {
     width: 100px;
     height: 100px;
+    border: 2px solid var(--primarycolor);
+    border-radius: 10px;
 }
+/* Contact Info Ends */
+
+/* Mobile Application Begins */
+
+@media screen and (max-width: 980px) and (min-width: 575px) {
+
+  .flex-container {
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      flex-direction: column;
+    }
+
+    .the-start nav {
+        width: 100%;
+        text-align: center;
+    }
+    
+    .the-start h1 {
+      width: 100%;
+      text-align: center;
+    }
+
+    .work-img, .loading-gif, .mod-img, .loading {
+        width: 100%;
+        align-items: center;
+
+    }
+}
+
+/* Mobile Application Ends */
