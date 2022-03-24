@@ -109,6 +109,10 @@ body {
  overflow: hidden;
 }
 
+.work-img {
+    width: 100%;
+}
+
 .work-img:hover, .loading-gif:hover, .mod-img:hover, .loading:hover {
     opacity: .75;
 }
